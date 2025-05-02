@@ -31,7 +31,7 @@ npm start run
 npm i dependency-name -D
 ```
 
-add api key from <a href="https://openweathermap.org/">openweathermap</a>
+- add api key from <a href="https://openweathermap.org/">openweathermap</a>
 
 
 
