@@ -10,7 +10,7 @@ function App() {
   const [favorites, setFavorites] = useState([]);
   const [suggestions1, setSuggestions1] = useState([]);
   const [suggestions2, setSuggestions2] = useState([]);
-  const baseURL = process.env.REACT_APP_API_BASE_URL;
+  const baseURL = "http://localhost:5000";
 
   const [selectedWeather, setSelectedWeather] = useState(null);
       
