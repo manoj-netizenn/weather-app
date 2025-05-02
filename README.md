@@ -35,10 +35,9 @@ npm i dependency-name -D
 
 
 ## [+] Screenshots
-
-- ![screenshot](https://github.com/manoj-netizenn/weather-app/blob/main/Screenshot%202025-05-02%20213702.png)
-- ![screenshot](https://github.com/manoj-netizenn/weather-app/blob/main/Screenshot%202025-05-02%20213641.png)
-- ![screenshot](https://github.com/manoj-netizenn/weather-app/blob/main/Galaxy%20Note%209%20(2).png)
+ ![screenshot](https://github.com/manoj-netizenn/weather-app/blob/main/Screenshot%202025-05-02%20213702.png)
+ ![screenshot](https://github.com/manoj-netizenn/weather-app/blob/main/Screenshot%202025-05-02%20213641.png)
+ ![screenshot](https://github.com/manoj-netizenn/weather-app/blob/main/Galaxy%20Note%209%20(2).png)
 
 
 
