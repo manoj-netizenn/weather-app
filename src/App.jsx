@@ -10,6 +10,7 @@ function App() {
   const [favorites, setFavorites] = useState([]);
   const [suggestions1, setSuggestions1] = useState([]);
   const [suggestions2, setSuggestions2] = useState([]);
+  const baseURL = process.env.REACT_APP_API_BASE_URL;
 
   const [selectedWeather, setSelectedWeather] = useState(null);
       
@@ -17,11 +18,10 @@ function App() {
     const stored = JSON.parse(localStorage.getItem("favorites")) || [];
     setFavorites(stored);
   }, []);
-
   const searchCities = async (query, setterFunction) => {
     if (query.length >= 3) {
       try {
-        const response = await axios.get(`http://localhost:5000/search/${query}`);
+        const response = await axios.get(`baseURL/search/${query}`);
         setterFunction(response.data);
       } catch (error) {
         console.error("Error searching cities:", error);
@@ -44,11 +44,11 @@ function App() {
 
   const fetchWeather = async () => {
     if (city1) {
-      const res1 = await axios.get(`http://localhost:5000/weather/${city1}`);
+      const res1 = await axios.get(`baseURL/weather/${city1}`);
       setWeather1(res1.data);
     }
     if (city2) {
-      const res2 = await axios.get(`http://localhost:5000/weather/${city2}`);
+      const res2 = await axios.get(`baseURL/weather/${city2}`);
       setWeather2(res2.data);
     }
   };
