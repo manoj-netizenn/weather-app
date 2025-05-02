@@ -34,5 +34,9 @@ npm i dependency-name -D
 - add api key from <a href="https://openweathermap.org/">openweathermap</a>
 
 
+## [+] Screenshots
+
+![screenshot]()
+
 
 
