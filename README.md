@@ -30,7 +30,11 @@ npm start run
 ```bash
 npm i dependency-name -D
 ```
+- to run backend
 
+```bash
+node server.js 
+```
 - add api key from <a href="https://openweathermap.org/">openweathermap</a>
 
 
